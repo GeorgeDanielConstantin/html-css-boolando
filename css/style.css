@@ -1,0 +1,22 @@
+header {
+    background-color: #ff6900;
+    height: 80px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.top > div {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 40px;
+}
