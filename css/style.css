@@ -1,3 +1,5 @@
+/* ARANCIO */
+
 header {
     background-color: #ff6900;
     height: 80px;
@@ -19,4 +21,17 @@ header {
 
 .logo {
     height: 40px;
+}
+
+/* PRODOTTI */
+
+.p-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.prodotto {
+    background-color: #f3f1ef;
 }
