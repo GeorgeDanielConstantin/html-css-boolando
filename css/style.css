@@ -17,6 +17,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 15%;
 }
 
 .logo {
@@ -101,8 +102,19 @@ header {
 footer {
     background-color: black;
     color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 li {
     display: inline;
+}
+
+footer>.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contatti .container {
+    display: block;
 }
